@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Programming HW</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="./secondStyle.css" />
+  </head>
+  <body>
+    <!-- 헤더 시작 -->
+    <header class="grid kw__header">
+      <a href="https://www.naver.com" class="kw__header__anchor">
+        <img src="./images/logo.svg" alt="logo" />
+      </a>
+
+      <nav class="kw__header__nav">
+        <ul class="kw__header__nav__menu__list">
+          <li class="kw__header__nav__menu__item selected">Home</li>
+          <li class="kw__header__nav__menu__item">About</li>
+          <li class="kw__header__nav__menu__item">Episode</li>
+          <li class="kw__header__nav__menu__item">Blog</li>
+          <li class="kw__header__nav__menu__item">Pages</li>
+          <li class="kw__header__nav__menu__item">Contact</li>
+        </ul>
+      </nav>
+
+      <ul class="kw__header__button__group">
+        <button type="button" class="common__solid__button">Subscribe</button>
+        <button
+          type="button"
+          class="common__outline__button kw__paypal__button"
+        >
+          <img src="./images/ic__paypal.svg" alt="paypal_icon" />
+          Donate
+        </button>
+      </ul>
+    </header>
+    <!-- 헤더 끝 -->
+
+    <!-- 겟인터치, 컨택트 시작-->
+    <div class="kw__contact__bg">
+        <h2 class="kw__contact__text">Contact</h2>
+        <div class="kw__contact__text__description__wrapper">
+            <span class="kw__contact__texdt__description">Home / Contact</span>
+        </div>
+    </div>
+
+    <div class="grid kw__get__in__touch__box__wrapper">
+        <section class="kw__get__in__touch__box">
+            <div class="kw__flex__center">
+                <h2 class="kw__get__in__touch__text">Get In Touch</h2>
+            </div>
+            
+            <div class="kw__get__in__touch__row__one">
+                <div class="kw__get__in__touch__row__one__input__wrapper">
+                    <label class="kw__get__in__touch__form__label">First Name</label>
+                    <input class="kw__get__in__touch__form__input kw__get__in__touch__form__input__row__one kw__get__in__touch__margin" placeholder="Your First Name">
+                </div>
+
+                <div class="kw__get__in__touch__row__one__input__wrapper">
+                    <label class="kw__get__in__touch__form__label">Last Name</label>
+                    <input class="kw__get__in__touch__form__input kw__get__in__touch__form__input__row__one" placeholder="Your Last Name">
+                </div>
+            </div>
+
+            <div class="kw__get__in__touch__row__one__input__wrapper">
+                <label class="kw__get__in__touch__form__label">Your Email Address</label>
+                <input class="kw__get__in__touch__form__input" placeholder="Your Email Address">
+            </div>
+
+            <div class="kw__get__in__touch__row__one__input__wrapper">
+                <label class="kw__get__in__touch__form__label">Your Reason Of Contact</label>
+                <input class="kw__get__in__touch__form__input" placeholder="Your Reason Of Contact">
+            </div>
+
+            <div class="kw__get__in__touch__row__one__input__wrapper">
+                <label class="kw__get__in__touch__form__label">Start Writing From Here</label>
+                <span class="kw__get__in__touch__form__span">Lorem Ipsum is simply dummy text of the printing and...…….</span>
+                <input class="kw__get__in__touch__form__input kw__get__in__touch__start__writing" placeholder="">
+            </div>
+
+            <button type="button" class="common__solid__button">
+                Submit
+            </button>
+  
+        </section>
+    </div>
+    <!-- 겟인터치, 컨택트 끝-->
+
+    <!-- 푸터 시작 -->
+    <div class="grid">
+        <section class="kw__new__episode">
+          <h3 class="kw__new__episode__heading">New Episode Every Week!</h3>
+          <p class="kw__new__episode__content">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy<br />
+            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.
+          </p>
+  
+          <div class="kw__new__episode__form__wrapper">
+            <input
+              type="email"
+              class="kw__new__episode__form__wrapper__input"
+              placeholder="Type Your Email"
+            />
+            <button type="button" class="common__solid__button kw__subscribe">
+              Subscribe
+              <img src="./images/ic__arrow__right.svg" alt="arrow-right-icon" />
+            </button>
+          </div>
+        </section>
+  
+        <footer class="kw__footer">
+          <article class="kw__footer__contents">
+            <section class="kw__footer__item">
+              <img src="./images/logo.svg" alt="logo" />
+              <p class="kw__footer__p">
+                <span>Lorem ipsum dolor sit amet, consetetur sadipscing</span>
+               <span>elitr, sed diam nonumy eirmod tempor invidunt.</span>
+              </p>
+  
+              <h4 class="kw__footer__socials">Socials</h4>
+              <ul class="kw__footer__socials__button__group">
+                <li class="kw__footer__socials__button__wrapper">
+                  <button class="kw__footer__socials__button">
+                    <img src="./images/ic__facebook.svg" alt="facebook-icon" />
+                  </button>
+                </li>
+                <li class="kw__footer__socials__button__wrapper">
+                  <button class="kw__footer__socials__button">
+                    <img src="./images/ic__linkedin.svg" alt="facebook-icon" />
+                  </button>
+                </li>
+                <li class="kw__footer__socials__button__wrapper">
+                  <button class="kw__footer__socials__button">
+                    <img src="./images/ic__instagram.svg" alt="facebook-icon" />
+                  </button>
+                </li>
+                <li class="kw__footer__socials__button__wrapper">
+                  <button class="kw__footer__socials__button">
+                    <img src="./images/ic__skype.svg" alt="facebook-icon" />
+                  </button>
+                </li>
+              </ul>
+            </section>
+  
+            <section class="kw__footer__item kw__footer__item__2">
+              <h4 class="kw__footer__socials kw__footer__small__heading">
+                Pages
+              </h4>
+              <ul class="kw__footer__item__unordered__list">
+                <li>About</li>
+                <li>Episode</li>
+                <li>Blog</li>
+                <li>Contact</li>
+              </ul>
+            </section>
+  
+            <section class="kw__footer__item kw__footer__item__2">
+              <h4 class="kw__footer__socials kw__footer__small__heading">
+                Recent Episodes
+              </h4>
+              <ul class="kw__footer__item__unordered__list">
+                <li>Episodes 1</li>
+                <li>Episodes 2</li>
+                <li>Episodes 3</li>
+                <li>Episodes 4</li>
+              </ul>
+            </section>
+  
+            <section class="kw__footer__item kw__footer__item__2">
+              <h4 class="kw__footer__socials kw__footer__small__heading">
+                Listen My Podcasts Also In
+              </h4>
+              <ul class="kw__footer__company__wrapper">
+                <!-- 구글 팟캐스트 버튼-->
+                <li>
+                  <img
+                    role="button"
+                    src="./images/ic__google_podcast.svg"
+                    alt="google_podcast__btn"
+                  />
+                </li>
+  
+                <!-- 애플 팟캐스트 버튼-->
+              <li>
+                <img
+                  role="button"
+                  src="./images/ic__apple_podcast.svg"
+                  alt="apple_podcast_btn"
+                />
+              </li>
+  
+                <!-- 스포티파이 버튼-->
+              </li>
+                <img
+                  role="button"
+                  src="./images/ic__spotify.svg"
+                  alt="spotify_btn"
+                />
+              </li>
+              </ul>
+            </section>
+          </article>
+  
+          <article class="kw__footer__copyright">
+              @2020 Themefisher All Rights Reserved | Design By : Themefisher.designer
+          </article>
+        </footer>
+      </div>
+      <!-- 푸터 끝 -->
+
+
+  </body>
+</html>
