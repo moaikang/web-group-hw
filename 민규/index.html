@@ -12,34 +12,332 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="mg__main__text">
+    <div class="header__main__background">
+      <!-- 헤더 시작 -->
+      <header class="grid kw__header">
+        <a href="https://www.naver.com" class="kw__header__anchor">
+          <img src="./images/logo.svg" alt="logo" />
+        </a>
+        
+        <nav class="kw__header__nav">
+          <ul class="kw__header__nav__menu__list">
+            <li class="kw__header__nav__menu__item selected">Home</li>
+            <li class="kw__header__nav__menu__item">About</li>
+            <li class="kw__header__nav__menu__item">Episode</li>
+            <li class="kw__header__nav__menu__item">Blog</li>
+            <li class="kw__header__nav__menu__item">Pages</li>
+            <li class="kw__header__nav__menu__item">Contact</li>
+          </ul>
+        </nav>
+        
+        <ul class="kw__header__button__group">
+          <button type="button" class="common__solid__button">Subscribe</button>
+          <button
+          type="button"
+          class="common__outline__button kw__paypal__button"
+          >
+          <img src="./images/ic__paypal.svg" alt="paypal_icon" />
+          Donate
+        </button>
+      </ul>
+    </header>
+    <!-- 헤더 끝 -->
+    
+    <!-- 메인 텍스트 시작-->
+    <div class="grid">
+      <div class="mg__main__text">
         <section class="mg__Trending__Episode">
-            <h3>Trending Episode</h3>
+          <h3>Trending Episode</h3>
             <p class="mg__TE__tit">Dreams of an unique ideas scattered through a deserted.</p>
             <p class="mg__TE__sub__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
             <audio class="mg__TE__music" src="" controls></audio>
-        </section>
-        <section class="mg__Listen__On__Also">
+          </section>
+          <section class="mg__Listen__On__Also">
             <h3>Listen On Also</h3>
-        </section>
+            <div class="main__LOA__ics">
+              <a href=""><img src="./images/ic__spotify.svg" alt="스포티파이로 이동"></a>
+              <a href=""><img src="./images/ic__google_podcast.svg" alt="구글 팟캐스트로 이동"></a>
+              <a href=""><img src="./images/ic__apple_podcast.svg" alt="애플 팟캐스트로 이동"></a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- 메인 텍스트 끝 -->
     </div>
-    <!-- 메인 텍스트 끝 -->
+      
+      <!--강아지 3개 사진 시작-->
+      <div class="grid">
+        <article class="kw__dog__wrapper">
+          <div class="kw__dog__row__one">
+            <h2 class="kw__dog__row__one__title">Latest Podcast Episodes</h2>
+            <button type="button" class="common__solid__button">View All</button>
+          </div>
+          
+          <div class="kw__dog__item__wrapper">
+            
+            <section class="kw__dog__item">
+                  <img src="./images/kw__new__dog.svg" alt="dog_image"/>
+                  <div class="kw__dog__row__content">
+                      <h3 class="kw__dog__title">Visiting my best friend's city for first time</h3>
+                      <p class="kw__dog__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam nonumy eirmod<br>
+                          tempor invidunt ut labore et dolore magna aliquyam , sed diam voluptua.
+                      </p>
+                      <audio class="mg__TE__music" src="" controls></audio>
+                  </div>
+
+                  <div role="presentation" class="kw__dog__row__content__border"></div>
+
+                  <div class="kw__dog__row__column2__wrapper">
+                      <div>#Season 1</div>
+                      <div># Posted on Sep 3, 2020</div>
+                      <div># audio / goodbyes / life</div>
+                  </div>
+              </section>
+
+              <section class="kw__dog__item">
+                  <img src="./images/kw__second__dog.jpg" alt="dog_image"/>
+                  <div class="kw__dog__row__content">
+                      <h3 class="kw__dog__title">An interesting read I definitely recommend</h3>
+                      <p class="kw__dog__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam nonumy eirmod<br>
+                          tempor invidunt ut labore et dolore magna aliquyam , sed diam voluptua.
+                      </p>
+                      <audio class="mg__TE__music" src="" controls></audio>
+                  </div>
+
+                  <div role="presentation" class="kw__dog__row__content__border"></div>
+
+                  <div class="kw__dog__row__column2__wrapper">
+                      <div>#Season 1</div>
+                      <div># Posted on Sep 3, 2020</div>
+                      <div># audio / goodbyes / life</div>
+                  </div>
+              </section>
+
+              <section class="kw__dog__item">
+                  <img src="./images/kw__third__dog.jpg" alt="dog_image"/>
+                  <div class="kw__dog__row__content">
+                      <h3 class="kw__dog__title">What if all my adventures go back home?</h3>
+                      <p class="kw__dog__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam nonumy eirmod<br>
+                          tempor invidunt ut labore et dolore magna aliquyam , sed diam voluptua.
+                      </p>
+                      <audio class="mg__TE__music" src="" controls></audio>
+                  </div>
+
+                  <div role="presentation" class="kw__dog__row__content__border"></div>
+
+                  <div class="kw__dog__row__column2__wrapper">
+                      <div>#Season 1</div>
+                      <div># Posted on Sep 3, 2020</div>
+                      <div># audio / goodbyes / life</div>
+                  </div>
+              </section>
+          </div>
+      
+          <div class="kw__dog__show__more__wrapper">
+              <button
+              type="button"
+              class="common__outline__button kw__show__more__episode"
+              >
+              Show More Episode
+          </button>
+        </div>
+        </article>
+      </div>
+  <!--강아지 3개 사진 끝 -->
+
+    <!-- 블로그 포스트 부분 시작 -->
+    <div class="grid blogpost__grid">
+      <h2 class="kw__dog__row__one__title kw__flex__center kw__blog__posts">Blog Posts</h2>
+      <section class="kw__blog__posts__box__wrapper">
+        <div class="kw__blog__posts__box">
+          <div class="kw__blog__posts__box__author">
+            <span>
+            <span class="kw__blog__posts__box__author__title">By Mehedi Hasan</span>
+            <span class="kw__blog__posts__box__author__date">Sep 11, 2020</span>
+          </span>
+          <div class="kw__blog__posts__box__down">Cantonese Radio</div>
+          <p class="kw__blog__posts__box__p__bold">Global News Podcast Thai soldier kills many people a shooting rampage</p>
+          <p class="kw__blog__posts__box__p__normal">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore ………..</p>
+          <button class="common__outline__button">Read More</button>
+          </div>
+        </div>
+  
+        <div class="kw__blog__posts__box">
+          <div class="kw__blog__posts__box__author">
+            <span>
+            <span class="kw__blog__posts__box__author__title">By Mehedi Hasan</span>
+            <span class="kw__blog__posts__box__author__date">Sep 11, 2020</span>
+          </span>
+          <div class="kw__blog__posts__box__down">Cantonese Radio</div>
+          <p class="kw__blog__posts__box__p__bold">Global News Podcast Thai soldier kills many people a shooting rampage</p>
+          <p class="kw__blog__posts__box__p__normal">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore ………..</p>
+          <button class="common__outline__button">Read More</button>
+          </div>
+        </div>
+        
+        <div class="kw__blog__posts__box">
+          <div class="kw__blog__posts__box__author">
+            <span>
+            <span class="kw__blog__posts__box__author__title">By Mehedi Hasan</span>
+            <span class="kw__blog__posts__box__author__date">Sep 11, 2020</span>
+          </span>
+          <div class="kw__blog__posts__box__down">Cantonese Radio</div>
+          <p class="kw__blog__posts__box__p__bold">Global News Podcast Thai soldier kills many people a shooting rampage</p>
+          <p class="kw__blog__posts__box__p__normal">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore ………..</p>
+          <button class="common__outline__button">Read More</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+    <div class="kw__arrow__wrapper">
+      <img src="./images/ic__left__arrow.svg" alt="arrow-left">
+      <img src="./images/ic__right__arrow.svg" alt="arrow-right">
+      </div>
+    </div>
+    <!-- 블로그 포스트 부분 끝 -->
+
     <!-- 인스타그램 피드 시작 -->
     <section class="mg__Insta">
-        <h2>Instagram feeds</h2>
-        <div class="mg__Insta__grid">
-            <a href="" class="mg__insta__img__1"></a>
-            <a href="" class="mg__insta__img__2"></a>
-            <a href="" class="mg__insta__img__3"></a>
-            <a href="" class="mg__insta__img__4"></a>
-            <a href="" class="mg__insta__img__5"></a>
-            <a href="" class="mg__insta__img__6"></a>
-            <a href="" class="mg__insta__img__7"></a>
-            <a href="" class="mg__insta__img__8"></a>
-            <a href="" class="mg__insta__img__9"></a>
-            <a href="" class="mg__insta__img__10"></a>
-        </div>
-    </section>
+      <h2>Instagram feeds</h2>
+      <div class="mg__Insta__grid">
+          <a href="" class="mg__insta__img__1"></a>
+          <a href="" class="mg__insta__img__2"></a>
+          <a href="" class="mg__insta__img__3"></a>
+          <a href="" class="mg__insta__img__4"></a>
+          <a href="" class="mg__insta__img__5"></a>
+          <a href="" class="mg__insta__img__6"></a>
+          <a href="" class="mg__insta__img__7"></a>
+          <a href="" class="mg__insta__img__8"></a>
+          <a href="" class="mg__insta__img__9"></a>
+          <a href="" class="mg__insta__img__10"></a>
+      </div>
+  </section>
+  <!-- 인스타그램 피드 끝 -->
 
+
+
+    <!-- 푸터 시작 -->
+    <div class="grid">
+      <section class="kw__new__episode">
+        <h3 class="kw__new__episode__heading">New Episode Every Week!</h3>
+        <p class="kw__new__episode__content">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy<br />
+          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.
+        </p>
+
+        <div class="kw__new__episode__form__wrapper">
+          <input
+            type="email"
+            class="kw__new__episode__form__wrapper__input"
+            placeholder="Type Your Email"
+          />
+          <button type="button" class="common__solid__button kw__subscribe">
+            Subscribe
+            <img src="./images/ic__arrow__right.svg" alt="arrow-right-icon" />
+          </button>
+        </div>
+      </section>
+
+      <footer class="kw__footer">
+        <article class="kw__footer__contents">
+          <section class="kw__footer__item">
+            <img src="./images/logo.svg" alt="logo" />
+            <p class="kw__footer__p">
+              <span>Lorem ipsum dolor sit amet, consetetur sadipscing</span>
+             <span>elitr, sed diam nonumy eirmod tempor invidunt.</span>
+            </p>
+
+            <h4 class="kw__footer__socials">Socials</h4>
+            <ul class="kw__footer__socials__button__group">
+              <li class="kw__footer__socials__button__wrapper">
+                <button class="kw__footer__socials__button">
+                  <img src="./images/ic__facebook.svg" alt="facebook-icon" />
+                </button>
+              </li>
+              <li class="kw__footer__socials__button__wrapper">
+                <button class="kw__footer__socials__button">
+                  <img src="./images/ic__linkedin.svg" alt="facebook-icon" />
+                </button>
+              </li>
+              <li class="kw__footer__socials__button__wrapper">
+                <button class="kw__footer__socials__button">
+                  <img src="./images/ic__instagram.svg" alt="facebook-icon" />
+                </button>
+              </li>
+              <li class="kw__footer__socials__button__wrapper">
+                <button class="kw__footer__socials__button">
+                  <img src="./images/ic__skype.svg" alt="facebook-icon" />
+                </button>
+              </li>
+            </ul>
+          </section>
+
+          <section class="kw__footer__item kw__footer__item__2">
+            <h4 class="kw__footer__socials kw__footer__small__heading">
+              Pages
+            </h4>
+            <ul class="kw__footer__item__unordered__list">
+              <li>About</li>
+              <li>Episode</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </section>
+
+          <section class="kw__footer__item kw__footer__item__2">
+            <h4 class="kw__footer__socials kw__footer__small__heading">
+              Recent Episodes
+            </h4>
+            <ul class="kw__footer__item__unordered__list">
+              <li>Episodes 1</li>
+              <li>Episodes 2</li>
+              <li>Episodes 3</li>
+              <li>Episodes 4</li>
+            </ul>
+          </section>
+
+          <section class="kw__footer__item kw__footer__item__2">
+            <h4 class="kw__footer__socials kw__footer__small__heading">
+              Listen My Podcasts Also In
+            </h4>
+            <ul class="kw__footer__company__wrapper">
+              <!-- 구글 팟캐스트 버튼-->
+              <li>
+                <img
+                  role="button"
+                  src="./images/ic__google_podcast.svg"
+                  alt="google_podcast__btn"
+                />
+              </li>
+
+              <!-- 애플 팟캐스트 버튼-->
+            <li>
+              <img
+                role="button"
+                src="./images/ic__apple_podcast.svg"
+                alt="apple_podcast_btn"
+              />
+            </li>
+
+              <!-- 스포티파이 버튼-->
+            </li>
+              <img
+                role="button"
+                src="./images/ic__spotify.svg"
+                alt="spotify_btn"
+              />
+            </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="kw__footer__copyright">
+            @2020 Themefisher All Rights Reserved | Design By : Themefisher.designer
+        </article>
+      </footer>
+    </div>
+    <!-- 푸터 끝 -->
   </body>
 </html>
